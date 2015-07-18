@@ -8,5 +8,9 @@
 3. `sudo usermod brad -aG www-data`
 
 #### chmod file permissions correctly
-- `sudo find /var/www -type d -print -exec chmod 755 {} \;`
+- `sudo find /var/www -type d -print -exec chmod 775 {} \;`
 - `sudo find /var/www -type f -print -exec chmod 644 {} \;`
+
+
+## Unload
+`sudo chown -R yourname:yourgroup *`
