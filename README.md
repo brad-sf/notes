@@ -23,3 +23,8 @@ Host bradleyflood
 Hostname bradleyflood.com
 User brad
 ```
+
+## Terminal
+
+#### Find string in source code
+- `curl -v --silent http://www.bradleyflood.com/ 2>&1 | grep 'crazyegg'`
