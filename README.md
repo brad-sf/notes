@@ -14,3 +14,12 @@
 
 ## Unload
 `sudo chown -R yourname:yourgroup *`
+
+
+## SSH
+`.ssh/config`
+```
+Host bradleyflood
+Hostname bradleyflood.com
+User brad
+```
