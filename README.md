@@ -1,6 +1,6 @@
 # notes.txt
 
-## Ubuntu 14
+## Ubuntu (14)
 
 #### Create user
 1. `adduser brad`
@@ -10,7 +10,6 @@
 #### chmod file permissions correctly
 - `sudo find /var/www -type d -print -exec chmod 775 {} \;`
 - `sudo find /var/www -type f -print -exec chmod 644 {} \;`
-
 
 ## Unload
 `sudo chown -R yourname:yourgroup *`
@@ -23,6 +22,11 @@ Host bradleyflood
 Hostname bradleyflood.com
 User brad
 ```
+
+### Authorized keys
+`chmod 700 ~/.ssh`
+`chmod 600 ~/.authorized_keys`
+
 
 ## Terminal
 
