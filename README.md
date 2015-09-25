@@ -27,6 +27,9 @@ User brad
 `chmod 700 ~/.ssh`
 `chmod 600 ~/.authorized_keys`
 
+## Upload files from local to remote via SSH
+`scp /path/to/image.jpg username@bradleyflood.com:/var/www/bradleyflood.com/html/img/_private`
+
 
 ## Terminal
 
