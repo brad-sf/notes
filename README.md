@@ -38,3 +38,8 @@ User brad
 
 ### Curl with headers
 - curl https://example.com/ -k -v
+
+
+## Git
+
+Enable debug: `export GIT_TRACE=true`
