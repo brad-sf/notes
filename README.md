@@ -39,6 +39,11 @@ User brad
 ### Curl with headers
 - curl https://example.com/ -k -v
 
+### Symlinks
+- `ln -s /path/to/source/file /path/and/name/of/symlink`
+- Eg `ls -s ~/www/dev/project /MyProjectShortcut`
+
+
 
 ## Git
 
