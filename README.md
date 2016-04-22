@@ -48,3 +48,8 @@ User brad
 ## Git
 
 Enable debug: `export GIT_TRACE=true`
+
+Easily push new branches by:
+
+1. `git config --global push.default current`
+2. `git push -u` (or fish `push` by `abbr -a push 'git push -u'` :)
