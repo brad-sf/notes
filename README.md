@@ -30,6 +30,8 @@ User brad
 ## Upload files from local to remote via SSH
 `scp /path/to/image.jpg username@bradleyflood.com:/var/www/bradleyflood.com/html/img/_private`
 
+## Apache (on Ubuntu)
+`sudo service apache2 restart`
 
 ## Terminal
 
