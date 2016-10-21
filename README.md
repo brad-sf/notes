@@ -45,6 +45,9 @@ User brad
 - `ln -s /path/to/source/file /path/and/name/of/symlink`
 - Eg `ls -s ~/www/dev/project /MyProjectShortcut`
 
+### Get GZIPed file size in bytes
+- `gzip -c path/to/file | wc -c`
+
 
 
 ## Git
@@ -55,3 +58,5 @@ Easily push new branches by:
 
 1. `git config --global push.default current`
 2. `git push -u` (or fish `push` by `abbr -a push 'git push -u'` :)
+
+
