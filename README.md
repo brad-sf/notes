@@ -6,6 +6,9 @@
 1. `adduser brad`
 2. `gpasswd -a brad sudo`
 3. `sudo usermod brad -aG www-data`
+4. `su brad`
+5. `mkdir ~/.ssh`
+6. `vim ~/.ssh/authorized_keys` add key etc.
 
 #### chmod file permissions correctly
 - `sudo find /var/www -type d -print -exec chmod 775 {} \;`
