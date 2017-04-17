@@ -51,6 +51,10 @@ User brad
 ### Get GZIPed file size in bytes
 - `gzip -c path/to/file | wc -c`
 
+## Zip a file
+- `zip -r www.zip /var/www`
+- `unzip www.zip`
+
 
 
 ## Git
