@@ -35,6 +35,8 @@ User brad
 
 ## Apache (on Ubuntu)
 `sudo service apache2 restart`
+`a2ensite /etc/apache2/sites-available/bradleyflood.com.conf`
+`a2dissite 000-default.conf` etc.
 
 ## Terminal
 
