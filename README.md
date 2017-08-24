@@ -57,6 +57,8 @@ User brad
 - `zip -r www.zip /var/www`
 - `unzip www.zip`
 
+## SSL cert
+- `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./dev-https.key -out ./dev-https.crt -subj "/CN=local.bradleyflood.com"`
 
 
 ## Git
