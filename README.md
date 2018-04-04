@@ -70,4 +70,5 @@ Easily push new branches by:
 1. `git config --global push.default current`
 2. `git push -u` (or fish `push` by `abbr -a push 'git push -u'` :)
 
-
+## MYSQL
+- `mysql -u db_user -p -h mydb.myaccount.ap-southeast-2.rds.amazonaws.com db_name`
